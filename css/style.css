@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
+@font-face{
+    font-family: "Klavika";
+    src: url("../fonts/Klavika/KlavikaBold.otf");
+}
+
+@font-face{
+    font-family: "Lato";
+    src: url("../fonts/Lato/Lato-Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "Lato";
+    src: url("../fonts/Lato/Lato-Bold.ttf");
+    font-weight: bold;
+}
+
+.center{
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    background-color: #4267B2;
+    padding: 8px 0;
+}
+
+.logo{
+    float: left;
+}
+
+.logo h2{
+    font-family: "Klavika";
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+}
+
+form.form-login{
+    float: right;
+}
+
+form.form-login .form-element{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+form.form-login .form-element p{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+form.form-login .forgot-password a{
+    color: #D3D8E8;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 42%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+form.form-login .form-element input[type="email"],
+form.form-login .form-element input[type="password"]{
+    margin-top: 4px;
+    height: 22px;
+    padding-left: 3px;
+    border: 0;
+    outline: 0;
+}
+
+form.form-login .form-element input[type="submit"]{
+    cursor: pointer;
+    border: 0;
+    background-color: #3A6CD6;
+    color: white;
+    font-weight: bold;
+    padding: 3px 5px;
+}
+
+form.form-login .form-element input[type="submit"]:hover{
+    background-color: #215AB2;
+}
+
+section.main{
+    background-image: linear-gradient(white, #D3D8E8);
+    padding: 40px 0;
+}
+
+.people{
+    float: left;
+    width: 65%;
+}
+
+.people h3{
+    font-size: 20px;
+    max-width: 80%;
+    color: #0E385F;
+}
+
+.people img{
+    margin-top: 2%;
+    max-width: 90%;
+}
+
+.open-account{
+    width: 35%;
+    float: left;
+}
+
+.open-account h2{
+    color: black;
+    font-size: 35px;
+}
+
+.open-account h3{
+    color: black;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+form.form-create-account{
+    margin-top: 10px;
+}
+
+form.form-create-account .form-element-text,   form.form-create-account .form-element-date{
+    width: 50%;
+    float: left;
+}
+
+form.form-create-account .date-quote{
+    padding: 5px;
+    width: 50%;
+    float: right;
+}
+
+form.form-create-account .date-quote a{
+    text-decoration: none;
+    color: #3A6CD6;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+form.form-create-account .form-element-text:nth-of-type(1){
+    padding-right: 5px;
+}
+
+form.form-create-account .form-element, form.form-create-account .form-element-submit{
+    width: 100%;
+    float: left;
+}
+
+form.form-create-account input{
+    width: 100%;
+}
+
+form.form-create-account input[type="text"],
+form.form-create-account input[type="email"],
+form.form-create-account input[type="password"]{
+    height: 40px;
+    border: 1px solid #737373;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 8px;
+    font-size: 15px;
+    outline: 0;
+}
+
+form.form-create-account input[type="date"]{
+    height: 40px;
+    border: 1px solid #737373;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 8px;
+    font-size: 15px;
+    outline: 0;
+}
+
+form.form-create-account .input-radio{
+    float: left;
+    padding: 0 5px;
+}
+
+form.form-create-account .input-radio h3{
+    display: inline-block;
+    font-size: 15px;
+}
+
+form.form-create-account .input-radio input[type="radio"]{
+    width: auto !important;
+    display: inline-block;
+}
+
+form.form-create-account .political-terms{
+    padding: 10px 0;
+    float: left;
+}
+
+form.form-create-account .political-terms p, a{
+    font-size: 12px;
+    font-weight: bold;
+    color: #737373;
+}
+
+form.form-create-account .political-terms a{
+    text-decoration: none;
+    color: #3A6CD6;
+}
+
+form.form-create-account input[type="submit"]{
+    height: 40px;
+    background-image: linear-gradient(#67AE55, #578843);
+    border: 0;
+    margin-top: 8px;
+    max-width: 200px;
+    font-size: 19px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+section.languages{
+    padding: 30px 0;
+    background-color: white;
+}
+
+section.languages a{
+    color: #365899;
+    text-decoration: none;
+    font-size: 12px;
+    padding-right: 14px;
+}
+
+section.languages .center{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+footer .center{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer .center h4{
+    color: #737373;
+    font-size: 15px;
+}
+
+section.languages .center:nth-of-type(2){
+    border: 0;
+    padding-top: 10px;
+}
+
+section.languages a.selected-language{
+    color: #737373;
+}
+
+section.languages h4{
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    form.form-login{
+        float: none;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+    }
+
+    form.form-login .forgot-password a{
+        margin-left: 0;
+    }
+
+    form.form-login .form-element{
+        display: block;
+        margin: 10px 0;
+    }
+    
+    form.form-login .form-element input[type="email"],
+    form.form-login .form-element input[type="password"]{
+        width: 100%;
+        max-width: 320px;
+        height: 30px;
+    }
+
+    form.form-login .form-element .form-element{
+        display: block;
+    }
+    
+    form.form-login .form-element input[type="submit"]{
+        width: 140px;
+        height: 30px;
+    }
+
+    .people{
+        margin: 0 auto;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .people h3{
+        max-width: 100%;
+    }
+
+    .people img{
+        display: none;
+    }
+
+    .open-account{
+        margin-top: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    form.form-create-account .form-element-date, form.form-create-account .input-radio{
+        display: inline-block;
+        float: none;
+        padding: 0 5px;
+    }
+
+    form.form-create-account .date-quote{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    section.languages{
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    footer .center h4{
+        text-align: center;
+    }
+}
