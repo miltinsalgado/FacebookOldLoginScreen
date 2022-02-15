@@ -18,5 +18,6 @@ Esse é um projeto no qual simulo o antigo design da interface de login do Faceb
 Esse projeto marca minha consolidação em HTML5 e meu início com CSS3, portanto em breve terão muito mais projetos responsivos e atualizados!
 
 Agradeço a sua atenção e leitura deste documento!
+
 Atenciosamente, 
 Milton Salgado ⚡
