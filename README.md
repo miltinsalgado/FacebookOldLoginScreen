@@ -7,7 +7,7 @@ Criei uma tela de login inspirada na antiga interface de entrada do Facebook (20
 
 ### Prévia do Projeto 🖼️
 <div align="center">
-    <img height="400em" src="images/faceboook_old_login_screen.png">
+    <img height="400em" src="images/facebook_old_login_screen">
 </div>
 
 ##
