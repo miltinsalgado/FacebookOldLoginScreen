@@ -13,13 +13,6 @@
 @font-face{
     font-family: "Lato";
     src: url("../fonts/Lato/Lato-Regular.ttf");
-    font-weight: normal;
-}
-
-@font-face{
-    font-family: "Lato";
-    src: url("../fonts/Lato/Lato-Bold.ttf");
-    font-weight: bold;
 }
 
 .center{
@@ -61,13 +54,12 @@ form.form-login .form-element{
 form.form-login .form-element p{
     color: white;
     font-size: 12px;
-    font-weight: bold;
 }
 
 form.form-login .forgot-password a{
     color: #D3D8E8;
     font-size: 12px;
-    font-weight: bold;
+    font-weight: normal;
     margin-left: 42%;
     text-decoration: none;
     cursor: pointer;
@@ -87,7 +79,6 @@ form.form-login .form-element input[type="submit"]{
     border: 0;
     background-color: #3A6CD6;
     color: white;
-    font-weight: bold;
     padding: 3px 5px;
 }
 
