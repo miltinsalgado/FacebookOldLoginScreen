@@ -1,182 +1,164 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-        <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta nibh id nibh semper vulputate. Integer sollicitudin magna ipsum, pulvinar vehicula leo eleifend non. Aliquam vel consequat risus. Sed vel felis in leo iaculis laoreet sit amet et eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;">
-        <meta name="keywords" content="Facebook, facebook login, login-screen">
-        <meta name="author" content="Milton Salgado Leandro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porta nibh id nibh semper vulputate. Integer sollicitudin magna ipsum, pulvinar vehicula leo eleifend non. Aliquam vel consequat risus. Sed vel felis in leo iaculis laoreet sit amet et eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;">
+    <meta name="keywords" content="Facebook, facebook login, login-screen">
+    <meta name="author" content="Milton Salgado Leandro">
+    <title>Facebook - entre ou cadastre-se</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/facebook-icon.png">
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div class="logo">
+                <h2>facebook</h2>
+            </div> <!-- logo -->
 
-        <title>Facebook - entre ou cadastre-se</title>
+            <form class="form-login">
+                <div class="form-element">
+                    <p>E-mail ou telefone:</p>
+                    <input type="email">
+                </div> <!-- form-element -->
 
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" href="images/facebook-icon.png">
-    </head>
-    <body>
-        <header>
-            <div class="center">
+                <div class="form-element">
+                    <p>Senha:</p>
+                    <input type="password"> 
+                </div> <!-- form-element -->
 
-                <div class="logo">
-                    <h2>facebook</h2>
-                </div> <!-- logo -->
+                <div class="form-element">
+                    <input type="submit" name="action" value="Entrar">
+                </div> <!-- form-element -->
 
-                <form class="form-login">
+                <div class="forgot-password">
+                    <a href="#">Esqueceu sua senha?</a>
+                </div>
+            </form> <!-- form-login -->
+
+            <div class="clear"></div> <!-- clear -->
+        </div> <!-- center -->
+    </header> <!-- header -->
+
+    <section class="main">
+        <div class="center">
+            <div class="people">
+                <h3>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h3>
+                <img src="images/img1.png" alt="imagem de pessoas conectadas">
+            </div> <!-- people -->
+
+            <div class="open-account">
+                <h2>Criar uma nova conta</h2>
+                <h3>É gratuito e sempre será.</h3>
+                <form class="form-create-account">
+
+                    <div class="form-element-text">
+                        <input type="text" placeholder="Nome">
+                    </div> <!-- form-element-text -->
+
+                    <div class="form-element-text">
+                        <input type="text" placeholder="Sobrenome">
+                    </div> <!-- form-element-text-->
 
                     <div class="form-element">
-                        <p>E-mail ou telefone:</p>
-                        <input type="email">
+                        <input type="email" placeholder="Celular ou email">
                     </div> <!-- form-element -->
 
                     <div class="form-element">
-                        <p>Senha:</p>
-                        <input type="password"> 
+                        <input type="password" placeholder="Nova senha">
                     </div> <!-- form-element -->
+
+                    <div class="clear"></div> <!-- clear -->
+
+                    <h3>Data de nascimento</h3>
+                    <div class="form-element-date">
+                        <input type="date">
+                    </div> <!-- form-element-date -->
+
+                    <div class="date-quote">
+                        <a href="#">Por que preciso informar minha data de nascimento?</a>
+                    </div> <!-- date-quote -->
 
                     <div class="form-element">
-                        <input type="submit" name="action" value="Entrar">
+                        <h3>Sexo</h3>
+                        <div class="input-radio">
+                            <input type="radio" name="sexo" value="masculino">
+                            <h3>Masculino</h3>
+                        </div> <!-- input-radio -->
+
+                        <div class="input-radio">
+                            <input type="radio" name="sexo" value="feminino">
+                            <h3>Feminino</h3>
+                        </div> <!-- input-radio -->
                     </div> <!-- form-element -->
 
-                    <div class="forgot-password">
-                        <a href="#">Esqueceu sua senha?</a>
-                    </div>
+                    <div class="political-terms">
+                        <p>Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos</a> e que leu nossa <a href="">Política de Dados</a>, incluindo nosso <a href="#">Uso de Cookies.</a> Você pode receber notificações por SMS do Facebook e pode cancelar o recebimento a qualquer momento.</p>
+                    </div> <!-- political-terms -->
 
-                </form> <!-- form-login -->
+                    <div class="form-element-submit">
+                        <input type="submit" name="action" value="Cadastre-se">
+                    </div> <!-- form-element -->
 
-                <div class="clear"></div> <!-- clear -->
+                    <div class="clear"></div> <!-- clear -->
+                </form> <!-- create-account -->
+            </div> <!-- open-account -->
 
-            </div> <!-- center -->
-        </header> <!-- header -->
+            <div class="clear"></div> <!-- clear -->
+        </div> <!-- center -->
+    </section> <!-- main -->
 
-        <section class="main">
+    <section class="languages">
+        <div class="center">
+            <h4>Selecione sua Língua</h4>
+            <a class="selected-language" href="#">Português (Brasil)</a>
+            <a href="#">English (US)</a>
+            <a href="#">Español</a>
+            <a href="#">Français (France)</a>
+            <a href="#">Italiano</a>
+            <a href="#">Deutsch</a>
+        </div> <!-- center -->
 
-            <div class="center">
+        <div class="center">
+            <h4>Outras opções</h4>
+            <a href="#">Cadastre-se</a>
+            <a href="#">Entrar</a>
+            <a href="#">Messenger</a>
+            <a href="#">Facebook Lite</a>
+            <a href="#">Celular</a>
+            <a href="#">Encontrar amigos</a>
+            <a href="#">Pessoas</a>
+            <a href="#">Páginas</a>
+            <a href="#">Locais</a>
+            <a href="#">Jogos</a>
+            <a href="#">Marketplace</a>
+            <a href="#">Vídeos</a>
+            <a href="#">Grupos</a>
+            <a href="#">Receitas</a>
+            <a href="#">Esportes</a>
+            <a href="#">Look</a>
+            <a href="#">Moments</a>
+            <a href="#">Instagram</a>
+            <a href="#">Local</a>
+            <a href="#">Sobre</a>
+            <a href="#">Criar Anúncio</a>
+            <a href="#">Criar Página</a>
+            <a href="#">Desenvolvedores</a>
+            <a href="#">Carreiras</a>
+            <a href="#">Privacidade</a>
+            <a href="#">Cookies</a>
+            <a href="#">Opções de anúncio</a>
+            <a href="#">Termos</a>
+            <a href="#">Ajuda</a>
+        </div> <!-- center -->
+    </section> <!-- languages -->
 
-                <div class="people">
-                    <h3>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h3>
-                    <img src="images/img1.png" alt="imagem de pessoas conectadas">
-                </div> <!-- people -->
-
-                <div class="open-account">
-                    <h2>Criar uma nova conta</h2>
-                    <h3>É gratuito e sempre será.</h3>
-
-                    <form class="form-create-account">
-
-                        <div class="form-element-text">
-                            <input type="text" placeholder="Nome">
-                        </div> <!-- form-element-text -->
-
-                        <div class="form-element-text">
-                            <input type="text" placeholder="Sobrenome">
-                        </div> <!-- form-element-text-->
-
-                        <div class="form-element">
-                            <input type="email" placeholder="Celular ou email">
-                        </div> <!-- form-element -->
-
-                        <div class="form-element">
-                            <input type="password" placeholder="Nova senha">
-                        </div> <!-- form-element -->
-                        <div class="clear"></div>
-
-                        <h3>Data de nascimento</h3>
-                        <div class="form-element-date">
-                            <input type="date">
-                        </div> <!-- form-element-date -->
-
-                        <div class="date-quote">
-                            <a href="#">Por que preciso informar minha data de nascimento?</a>
-                        </div> <!-- date-quote -->
-
-                        <div class="form-element">
-                            <h3>Sexo</h3>
-                            <div class="input-radio">
-                                <input type="radio" name="sexo" value="masculino">
-                                <h3>Masculino</h3>
-                            </div> <!-- input-radio -->
-
-                            <div class="input-radio">
-                                <input type="radio" name="sexo" value="feminino">
-                                <h3>Feminino</h3>
-                            </div> <!-- input-radio -->
-
-                        </div> <!-- form-element -->
-
-                        <div class="political-terms">
-                            <p>Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos</a> e que leu nossa <a href="">Política de Dados</a>, incluindo nosso <a href="#">Uso de Cookies.</a> Você pode receber notificações por SMS do Facebook e pode cancelar o recebimento a qualquer momento.</p>
-                        </div> <!-- political-terms -->
-
-                        <div class="form-element-submit">
-                            <input type="submit" name="action" value="Cadastre-se">
-                        </div> <!-- form-element -->
-
-                        <div class="clear"></div> <!-- clear -->
-
-                    </form> <!-- create-account -->
-
-                </div> <!-- open-account -->
-
-                <div class="clear"></div> <!-- clear -->
-                
-            </div> <!-- center -->
-
-        </section> <!-- main -->
-
-        <section class="languages">
-
-            <div class="center">
-                <h4>Selecione sua Língua</h4>
-                <a class="selected-language" href="#">Português (Brasil)</a>
-                <a href="#">English (US)</a>
-                <a href="#">Español</a>
-                <a href="#">Français (France)</a>
-                <a href="#">Italiano</a>
-                <a href="#">Deutsch</a>
-            </div> <!-- center -->
-
-            <div class="center">
-                <h4>Outras opções</h4>
-                <a href="#">Cadastre-se</a>
-                <a href="#">Entrar</a>
-                <a href="#">Messenger</a>
-                <a href="#">Facebook Lite</a>
-                <a href="#">Celular</a>
-                <a href="#">Encontrar amigos</a>
-                <a href="#">Pessoas</a>
-                <a href="#">Páginas</a>
-                <a href="#">Locais</a>
-                <a href="#">Jogos</a>
-                <a href="#">Marketplace</a>
-                <a href="#">Vídeos</a>
-                <a href="#">Grupos</a>
-                <a href="#">Receitas</a>
-                <a href="#">Esportes</a>
-                <a href="#">Look</a>
-                <a href="#">Moments</a>
-                <a href="#">Instagram</a>
-                <a href="#">Local</a>
-                <a href="#">Sobre</a>
-                <a href="#">Criar Anúncio</a>
-                <a href="#">Criar Página</a>
-                <a href="#">Desenvolvedores</a>
-                <a href="#">Carreiras</a>
-                <a href="#">Privacidade</a>
-                <a href="#">Cookies</a>
-                <a href="#">Opções de anúncio</a>
-                <a href="#">Termos</a>
-                <a href="#">Ajuda</a>
-            </div> <!-- center -->
-
-        </section> <!-- languages -->
-
-        <footer>
-
-            <div class="center">
-                <h4>Facebook ©️ 2018</h4>
-            </div> <!-- center -->
-
-        </footer> <!-- footer -->
-    </body>
+    <footer>
+        <div class="center">
+            <h4>Facebook ©️ 2018</h4>
+        </div> <!-- center -->
+    </footer> <!-- footer -->
+</body>
 </html>
