@@ -65,7 +65,8 @@ form.form-login .forgot-password a {
     cursor: pointer;
 }
 
-form.form-login .form-element input[type="email"], form.form-login .form-element input[type="password"] {
+form.form-login .form-element input[type="email"],
+form.form-login .form-element input[type="password"] {
     margin-top: 4px;
     height: 22px;
     padding-left: 3px;
@@ -126,7 +127,8 @@ form.form-create-account {
     margin-top: 10px;
 }
 
-form.form-create-account .form-element-text, form.form-create-account .form-element-date {
+form.form-create-account .form-element-text,
+form.form-create-account .form-element-date {
     width: 50%;
     float: left;
 }
@@ -148,7 +150,8 @@ form.form-create-account .form-element-text:nth-of-type(1) {
     padding-right: 5px;
 }
 
-form.form-create-account .form-element, form.form-create-account .form-element-submit {
+form.form-create-account .form-element,
+form.form-create-account .form-element-submit {
     width: 100%;
     float: left;
 }
@@ -157,7 +160,9 @@ form.form-create-account input {
     width: 100%;
 }
 
-form.form-create-account input[type="text"], form.form-create-account input[type="email"], form.form-create-account input[type="password"] {
+form.form-create-account input[type="text"],
+form.form-create-account input[type="email"],
+form.form-create-account input[type="password"] {
     height: 40px;
     border: 1px solid #737373;
     border-radius: 5px;
@@ -197,7 +202,8 @@ form.form-create-account .political-terms {
     float: left;
 }
 
-form.form-create-account .political-terms p, a {
+form.form-create-account .political-terms p,
+a {
     font-size: 12px;
     font-weight: bold;
     color: #737373;
@@ -285,8 +291,9 @@ section.languages h4 {
         display: block;
         margin: 10px 0;
     }
-    
-    form.form-login .form-element input[type="email"], form.form-login .form-element input[type="password"] {
+
+    form.form-login .form-element input[type="email"],
+    form.form-login .form-element input[type="password"] {
         width: 100%;
         max-width: 320px;
         height: 30px;
@@ -295,7 +302,7 @@ section.languages h4 {
     form.form-login .form-element .form-element {
         display: block;
     }
-    
+
     form.form-login .form-element input[type="submit"] {
         width: 140px;
         height: 30px;
@@ -322,7 +329,8 @@ section.languages h4 {
         width: 100%;
     }
 
-    form.form-create-account .form-element-date, form.form-create-account .input-radio {
+    form.form-create-account .form-element-date,
+    form.form-create-account .input-radio {
         display: inline-block;
         float: none;
         padding: 0 5px;
